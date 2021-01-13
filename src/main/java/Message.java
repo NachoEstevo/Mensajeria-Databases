@@ -1,14 +1,11 @@
-
-
 public class Message {
     int messageID;
     String message;
     String messageAuthor;
     String messageDate;
 
-    public Message(){
+    public Message(){}
 
-    }
     public Message(String message, String messageAuthor, String messageDate){
         this.message = message;
         this.messageAuthor = messageAuthor;
@@ -31,9 +28,9 @@ public class Message {
         return messageDate;
     }
 
-    public void setMessage(String message) {
-        this.message = message;
-    }
+    public void setMessage(String message) { this.message = message;}
+
+    public void setMessageID(int messageID) { this.messageID = messageID;}
 
     public void setMessageAuthor(String messageAuthor) {
         this.messageAuthor = messageAuthor;

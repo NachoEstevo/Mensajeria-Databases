@@ -33,14 +33,6 @@ public class PruebaConexion {
                     break;
             }
         }while (opcion != 5);
-        /*Conexion conexion = new Conexion();
-
-        try(Connection cnx = conexion.getConection()){
-
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
-        }*/
     }
-
 
 }

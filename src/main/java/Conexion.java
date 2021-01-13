@@ -3,7 +3,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
     public class Conexion {
+
         private static Connection myConnection;
+
         public static Connection getConnection(){
             if(myConnection == null) {
                 try {
@@ -14,5 +16,6 @@ import java.sql.SQLException;
             }
             return myConnection;
         }
+
     }
 
